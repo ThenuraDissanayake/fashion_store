@@ -1,16 +1,20 @@
-# fashion_store
+# Fashion Store
 
-A new Flutter project.
+University project (2024): a fashion store mobile app built with Flutter and Firebase Authentication.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Sign up and log in with Firebase Authentication
+- Product list and product details
+- Cart with an item-count badge
+- Checkout with a payment-method choice and order confirmation
 
-A few resources to get you started if this is your first Flutter project:
+## Built with
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Flutter, Dart, Firebase Authentication, Google Fonts
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run locally
+
+1. Install Flutter and run `flutter pub get`.
+2. Connect your own Firebase project (for example with `flutterfire configure`).
+3. Run `flutter run`.
